@@ -1,5 +1,11 @@
 from flask import Flask
 
+"""
+Simple To Do List using Flask.
+Author: M. McKay Hunter
+February, 2024
+"""
+
 app = Flask(__name__)
 
 @app.route("/")
